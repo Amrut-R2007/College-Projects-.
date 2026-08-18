@@ -121,3 +121,21 @@ To train this model on custom real-world speech files:
    
    # Save your trained PyTorch weights!
    torch.save(model.state_dict(), "trained_gru_controller.pth")
+   ```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install Dependencies
+Make sure you have standard scientific Python dependencies installed:
+```bash
+pip install streamlit numpy scipy torch matplotlib
+```
+
+### 2. Run the App
+Navigate to the directory and launch the dashboard:
+```bash
+streamlit run app.py
+```
+This will automatically open the interactive web interface in your browser (typically `http://localhost:8501`).
